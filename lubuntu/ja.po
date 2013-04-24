@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-04-24 20:10+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: raw-org.txt:3
+msgid "## page was copied from PrecisePangolin/ReleaseNotes/Lubuntu <<Include(Lubuntu/Header)>>"
+msgstr "## page was copied from PrecisePangolin/ReleaseNotes/Lubuntu <<Include(Lubuntu/Header)>>"
+
+#. type: Plain text
+#: raw-org.txt:5
+msgid "||<tablestyle=\"float:right; font-size: 0.9em; width:30%; background:#F1F1ED; background-repeat: no-repeat; background-position: 98% 0.5ex; margin: 0 0 1em 1em; padding: 0.5em;\"><<TableOfContents>>||"
+msgstr "||<tablestyle=\"float:right; font-size: 0.9em; width:30%; background:#F1F1ED; background-repeat: no-repeat; background-position: 98% 0.5ex; margin: 0 0 1em 1em; padding: 0.5em;\"><<TableOfContents>>||"
+
+#. type: Plain text
+#: raw-org.txt:7
+msgid "= New Features in Lubuntu 12.10 ="
+msgstr "= Lubuntu 12.10の新機能 ="
+
+#. type: Plain text
+#: raw-org.txt:9
+msgid "This release of Lubuntu contains:"
+msgstr "Lubuntuの今回のリリースには次のものが含まれます:"
+
+#. type: Plain text
+#: raw-org.txt:19
+#, no-wrap
+msgid ""
+" * Update of the visual identity of Lubuntu, including :\n"
+"  * A completely new icon theme.\n"
+"  * A new wallpaper and improvements to the current theme.\n"
+"  * A selection of community wallpapers.\n"
+"  * Improving integration of many applications with the new artwork. \n"
+" * A new version of the session manager is available, including more customizations and integration options (not enable by default, but available for testing).\n"
+" * A new version of pcmanfm (file manager), including at lot of bug fixes, external thumbnailer support, multiple screen support.\n"
+" * Notification-daemon have been replaced for xfce4-notifyd on the default installation, to display notifications.\n"
+" * Catfish, a searching utility, have been added to the default installation. \n"
+msgstr ""
+" * Lubuntuのビジュアルアイデンティティの更新として、次のものがあります :\n"
+"  * 完全に新しいアイコンテーマ。\n"
+"  * 新しい壁紙ならびに現在のテーマの改善。\n"
+"  * コミュニティ壁紙のセレクション。\n"
+"  * 多くのアプリケーションに新しいアートワークが統合されました。\n"
+" * 新バージョンのセッションマネージャーが利用可能です。より多くのカスタマイズと統合オプションが含まれています (デフォルトでは有効ではありませんが、テスト用に利用可能です)。\n"
+" * 新バージョンのpcmanfm (ファイルマネージャー)。多くのバグフィックス、外部サムネイラーのサポート、マルチスクリーンサポートが含まれています。\n"
+" * 通知を表示するための通知デーモンを、デフォルトでインストールされるxfce4-notifydに置き換えました。\n"
+" * 検索ユーティリティのCatfishが、デフォルトインストールに追加されました。\n"
+
+#. type: Plain text
+#: raw-org.txt:21
+msgid "== Lubuntu Applications =="
+msgstr "== Lubuntuアプリケーション =="
+
+#. type: Bullet: ' * '
+#: raw-org.txt:28
+msgid "Based on the lightweight LXDE desktop environment."
+msgstr "軽量なLXDEデスクトップ環境をベースとしています。"
+
+#. type: Bullet: ' * '
+#: raw-org.txt:28
+msgid "Pcmanfm, a fast and lightweight files manager using gio/gvfs."
+msgstr "Pcmanfm。gio/gvfsを使用する、高速で軽量なファイルマネージャーです。"
+
+#. type: Bullet: ' * '
+#: raw-org.txt:28
+msgid "[[http://openbox.org/ | Openbox]], the fast and extensible, default windows-manager of LXDE."
+msgstr "[[http://openbox.org/ | Openbox]]。高速で拡張性の高い、LXDEのデフォルトのウィンドウマネージャーです。"
+
+#. type: Bullet: ' * '
+#: raw-org.txt:28
+msgid "Lightdm, using the simple GTK greeter"
+msgstr "Lightdm。シンプルなGTKグリーターを使用しています。"
+
+#. type: Bullet: ' * '
+#: raw-org.txt:28
+msgid "Chromium, the open-source version of Google Chrome."
+msgstr "Chromium。Google Chromeのオープンソースバージョンです。"
+
+#. type: Bullet: ' * '
+#: raw-org.txt:28
+msgid "For more detail, please see the [[Lubuntu/Applications | full list of applications]]"
+msgstr "詳細については、[[Lubuntu/Applications | アプリケーションの全リスト]]を参照してください。"
+
+#. type: Plain text
+#: raw-org.txt:30
+msgid "<<Include(QuantalQuetzal/ReleaseNotes/CommonInfrastructure, , from=\"^##StartQuantalReleaseNotesFeatures\", to=\"##EndQuantalReleaseNotesFeatures\")>>"
+msgstr "<<Include(QuantalQuetzal/ReleaseNotes/ja/CommonInfrastructure, , from=\"^##StartQuantalReleaseNotesFeatures\", to=\"##EndQuantalReleaseNotesFeatures\")>>"
+
+#. type: Plain text
+#: raw-org.txt:32
+msgid "= Installation ="
+msgstr "= インストール ="
+
+#. type: Plain text
+#: raw-org.txt:34
+msgid "== Overview =="
+msgstr "== 概要 =="
+
+#. type: Plain text
+#: raw-org.txt:36
+msgid "Preparing your computer for Lubuntu is now simpler, with a wider range of disk setup options. Each of these are detailed at length to provide you with a clear understanding of the actions that will take place with your selection."
+msgstr "Lubuntuのインストールを、よりシンプルにする一方で、ディスク設定の選択肢を拡張しました。それぞれの操作の詳細説明を見直し、選択した操作の結果を、より分かりやすく把握できるようにしています。"
+
+#. type: Plain text
+#: raw-org.txt:38
+msgid "You can now reinstall or upgrade an existing copy of Lubuntu with the Desktop CD installer, provided that your computer is connected to the Internet."
+msgstr "Desktop CDから起動されるインストーラーは、インターネットに接続されていれば、既存のLubuntu環境をアップグレードしたり、再インストールすることができます。"
+
+#. type: Plain text
+#: raw-org.txt:40
+msgid "== Download =="
+msgstr "== ダウンロード =="
+
+#. type: Plain text
+#: raw-org.txt:42
+msgid "To download Lubuntu and see the various options available head over to [[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]]. This section also discusses both the standard installs and those required for computers with low memory (RAM), old chipsets (i586), PowerPC, Mac and low disk-space (netbooks)."
+msgstr "Lubuntuをダウンロードしたり、利用可能なさまざまなオプションを知るには、[[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] を参照してください。このセクションでは、標準的なインストールに加えて、少ないメモリ (RAM)、古いチップセット (i586)、PowerPC、Mac、ディスク容量の少ない (ネットブック) コンピューターでの要件についても説明しています。"
+
+#. type: Plain text
+#: raw-org.txt:44
+msgid "== System Requirements =="
+msgstr "== システム要件 =="
+
+#. type: Plain text
+#: raw-org.txt:46
+msgid "A Pentium II or Celeron system with 128 MB of RAM is probably a bottom-line configuration that may yield slow yet usable system with a standard lubuntu desktop."
+msgstr "128MBのRAMを搭載したPentium IIまたはCeleronマシンが、標準的なLubuntuデスクトップとして、遅いながらも使い物になる最低限の環境でしょう。"
+
+#. type: Plain text
+#: raw-org.txt:48
+#, fuzzy
+msgid "'''12.10 32 bit ISO require your CPU to have Physical Address Extensions, or PAE'''. \"PAE is provided by Intel Pentium Pro and above CPUs, including all later Pentium-series processors (except most 400 MHz-bus versions of the Pentium M).\" - '''If you have a NON-PAE CPU and would like to install Lubuntu 12.10, please see [[http://www.webupd8.org/2012/11/how-to-install-ubuntu-1210-on-non-pae.html | this link]] or you can use [[https://help.ubuntu.com/community/Lubuntu/PreviousReleases#A12.04 | Lubuntu 12.04]] instead'''."
+msgstr "12.10の32ビットISOイメージでは、物理アドレス拡張(PAE)に対応したCPUが必要となります。PAEはIntel Pentium Pro以降のすべてのPentiumシリーズのCPUに搭載されています。(大多数のPemtium Mの400MHzバスシリーズを除く)"
+
+#. type: Plain text
+#: raw-org.txt:50
+msgid "For PowerPC, it is known to run on a G4 running at 867MHz with 640MB RAM."
+msgstr "PowerPCについては、搭載メモリ640MBのG4（867MHz駆動）で動作することが分かっています。"
+
+#. type: Plain text
+#: raw-org.txt:52
+msgid "For Intel based Macs, lubuntu should run on all models."
+msgstr "IntelベースのMacについては、すべてのモデルでLubuntuが動作するはずです。"
+
+#. type: Plain text
+#: raw-org.txt:54
+msgid "See [[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] for fuller details as to which download to use."
+msgstr "どのLubuntuをダウンロードするかについての詳細は、[[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] を参照してください。"
+
+#. type: Plain text
+#: raw-org.txt:56
+msgid "= Upgrading ="
+msgstr "= アップグレード ="
+
+#. type: Plain text
+#: raw-org.txt:63
+msgid "== Upgrading from Lubuntu 12.04 == The update manager GUI will offer you 12.10 Lubuntu (it shows as Ubuntu, but updates Lubuntu); Alternatively, launch LXTerminal and enter {{{ sudo do-release-upgrade -d }}} Please note the importance of upgrading apt and dpkg on a mixed 32 bit & 64 bit architecture (e.g. Skype on a 64bit installation) below."
+msgstr "== Lubuntu 12.04からのアップグレード == アップデートマネージャーのGUIによって、Lubuntu 12.10が提供されます。(Ubuntuと表示されますが、Lubuntuが更新されます)。または、LXTerminalを起動して、次のコマンドを入力してください。 {{{ sudo do-release-upgrade -d }}} 以下にあるとおり、32bitと64bitアーキテクチャ混合の環境 (たとえば、64bit環境上のSkype)では、apt および dpkg のアップグレードが重要であることに注意してください。"
+
+#. type: Plain text
+#: raw-org.txt:67
+#, no-wrap
+msgid ""
+"= Known Issues =\n"
+"== Installation ==\n"
+" * PPC has several issues and workarounds, please refer to the [[https://help.ubuntu.com/community/Lubuntu/Documentation/FAQ/PPC |documentation on the wiki]]\n"
+msgstr ""
+"= 既知の不具合 =\n"
+"== インストール ==\n"
+" * PPC環境では、いくつかの問題と回避策があります。[[https://help.ubuntu.com/community/Lubuntu/Documentation/FAQ/PPC |Wiki のドキュメント]]を参照してください。\n"
+
+#. type: Plain text
+#: raw-org.txt:70
+#, no-wrap
+msgid ""
+"== Graphics and Display ==\n"
+" * On some GTK3 applications, some tooltips have a black background and a black font. (Bug:1065941)\n"
+msgstr ""
+"== グラフィックおよびディスプレイ ==\n"
+" * 一部のGTK3アプリケーションでは、ツールチップが黒い背景に黒い文字で表示されることがあります。 (Bug:1065941)\n"
+
+#. type: Plain text
+#: raw-org.txt:79
+#, no-wrap
+msgid ""
+"== Applications ==\n"
+" * Execute in terminal is not working in pcmanfm (Bug:975152)\n"
+" * Blank boxes appear when hardinfo is started, and needed to be closed before accessing to the application (Bug:1029212)\n"
+" * Different spacing for the icons on the right corner of lxpanel (Bug:1056547)\n"
+" * Software sources takes 30 seconds to load (Bug:1051723)\n"
+" * Clicking on Ibus icon start the deamon, but doesn't display an icon (Bug:1041933)\n"
+" * gnome-mplayer with mplayer2 is not working on some hardware. Installing mplayer package workaround the problem (Bug:858226, Bug:974125, Bug:987734)\n"
+" * Calling file-roller inside pcmanfm doesn't work (Bug:978789)\n"
+msgstr ""
+"== アプリケーション ==\n"
+" * 端末での実行が、pcmanfmでは動作しません(Bug:975152)\n"
+" * hardinfoを起動するとブランクボックスが表示されます。アプリケーションを利用するには、ボックスを閉じる必要があります (Bug:1029212)\n"
+" * lxpanelの右端の各アイコンのスペースが異なっています (Bug:1056547)\n"
+" * ソフトウェアソースが、読み込みに30秒かかります (Bug:1051723)\n"
+" * IBusアイコンをクリックしてデーモンを起動しても、アイコンが表示されません (Bug:1041933)\n"
+" * mplayer2を使用するgnome-mplayerは、一部のハードウェアでは動作しません。mplayerパッケージのインストールが、問題の回避策となります (Bug:858226, Bug:974125, Bug:987734)\n"
+" * pcmanfm内でのfile-rollerの起動は動作しません (Bug:978789)\n"
+
+#. type: Plain text
+#: raw-org.txt:81
+msgid "<<Include(QuantalQuetzal/ReleaseNotes/CommonInfrastructure, , from=\"^##StartQuantalReleaseNotesBugs\", to=\"##EndQuantalReleaseNotesBugs\")>>"
+msgstr "<<Include(QuantalQuetzal/ReleaseNotes/ja/CommonInfrastructure, , from=\"^##StartQuantalReleaseNotesBugs\", to=\"##EndQuantalReleaseNotesBugs\")>>"
+
+#. type: Plain text
+#: raw-org.txt:84
+msgid "= Support ="
+msgstr "= サポート ="
+
+#. type: Bullet: ' * '
+#: raw-org.txt:86
+msgid "18 months."
+msgstr "18か月間"
+
+#. type: Bullet: ' * '
+#: raw-org.txt:86
+msgid "[[https://wiki.ubuntu.com/Lubuntu/ContactUs | Contact us]]."
+msgstr "[[https://wiki.ubuntu.com/Lubuntu/ContactUs | 連絡先]]"
