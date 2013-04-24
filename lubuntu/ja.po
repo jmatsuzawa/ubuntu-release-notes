@@ -17,7 +17,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "<<Include(Lubuntu/Header)>>"
-msgstr ""
+msgstr "<<Include(Lubuntu/Header)>>"
 
 #. type: Plain text
 msgid "||<tablestyle=\"float:right; font-size: 0.9em; width:30%; background:#F1F1ED; background-repeat: no-repeat; background-position: 98% 0.5ex; margin: 0 0 1em 1em; padding: 0.5em;\"><<TableOfContents>>||"
@@ -28,30 +28,28 @@ msgid "= DRAFT ="
 msgstr ""
 
 #. type: Plain text
-#, fuzzy
-#| msgid "= New Features in Lubuntu 12.10 ="
 msgid "= New Features in Lubuntu 13.04 ="
-msgstr "= Lubuntu 12.10の新機能 ="
+msgstr "= Lubuntu 13.04の新機能 ="
 
 #. type: Bullet: ' * '
 msgid "New version of pcmanfm / libfm (1.1.0) including a built-in search utility."
-msgstr ""
+msgstr "新バージョンのpcmanfm / libfm (1.1.0) に組み込みの検索ユーティリティを搭載しました。"
 
 #. type: Bullet: ' * '
 msgid "Artwork improvements, including new wallpapers, community wallpapers, new icons ..."
-msgstr ""
+msgstr "アートワークの改良しました。新しい壁紙、コミュニティ壁紙、新しいアイコンなど。"
 
 #. type: Bullet: ' * '
 msgid "Removing catfish, since pcmanfm has its own search utility"
-msgstr ""
+msgstr "catfish を削除しました。pcmanfm 自体に検索ユーティリティを搭載したためです。"
 
 #. type: Bullet: ' * '
 msgid "Fix a very old bug causing gnome-mplayer to crash with some CPU (P4)"
-msgstr ""
+msgstr "gnome-mplayer が一部のCPU (P4) でクラッシュする、古くからあるバグを修正しました。"
 
 #. type: Bullet: ' * '
 msgid "Several fixes for the image viewer gpicview."
-msgstr ""
+msgstr "イメージビューワ gpicview にあったいくつかのバグを修正しました。"
 
 #. type: Plain text
 msgid "== Lubuntu Applications =="
@@ -70,8 +68,6 @@ msgid "[[http://openbox.org/ | Openbox]], the fast and extensible, default windo
 msgstr "[[http://openbox.org/ | Openbox]]。高速で拡張性の高い、LXDEのデフォルトのウィンドウマネージャーです。"
 
 #. type: Bullet: ' * '
-#, fuzzy
-#| msgid "Lightdm, using the simple GTK greeter"
 msgid "Lightdm, using the simple GTK greeter."
 msgstr "Lightdm。シンプルなGTKグリーターを使用しています。"
 
@@ -80,8 +76,6 @@ msgid "Chromium, the open-source version of Google Chrome."
 msgstr "Chromium。Google Chromeのオープンソースバージョンです。"
 
 #. type: Bullet: ' * '
-#, fuzzy
-#| msgid "For more detail, please see the [[Lubuntu/Applications | full list of applications]]"
 msgid "For more detail, please see the [[Lubuntu/Applications | full list of applications]]."
 msgstr "詳細については、[[Lubuntu/Applications | アプリケーションの全リスト]]を参照してください。"
 
@@ -94,9 +88,8 @@ msgid "A Pentium II or Celeron system with 128 MB of RAM is probably a bottom-li
 msgstr "128MBのRAMを搭載したPentium IIまたはCeleronマシンが、標準的なLubuntuデスクトップとして、遅いながらも使い物になる最低限の環境でしょう。"
 
 #. type: Plain text
-#, fuzzy
 msgid "13.04 32 bit ISO require your CPU to have Physical Address Extensions, or PAE. \"PAE is provided by Intel Pentium Pro and above CPUs, including all later Pentium-series processors (except most 400 MHz-bus versions of the Pentium M).\" - If you have a NON-PAE CPU you can use 12.04 instead."
-msgstr "12.10の32ビットISOイメージでは、物理アドレス拡張(PAE)に対応したCPUが必要となります。PAEはIntel Pentium Pro以降のすべてのPentiumシリーズのCPUに搭載されています。(大多数のPemtium Mの400MHzバスシリーズを除く)"
+msgstr "13.04の32ビットISOイメージでは、物理アドレス拡張(PAE)に対応したCPUが必要となります。\"PAEはIntel Pentium Pro以降のすべてのPentiumシリーズのCPUに搭載されています (大多数のPemtium Mの400MHzバスシリーズを除く)。\" - PAE非対応のCPUの場合は、代わりに 12.04 が使用できます。"
 
 #. type: Plain text
 msgid "For PowerPC, it is known to run on a G4 running at 867MHz with 640MB RAM."
@@ -107,11 +100,7 @@ msgid "For Intel based Macs, lubuntu should run on all models."
 msgstr "IntelベースのMacについては、すべてのモデルでLubuntuが動作するはずです。"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "= Known Issues =\n"
-#| "== Installation ==\n"
-#| " * PPC has several issues and workarounds, please refer to the [[https://help.ubuntu.com/community/Lubuntu/Documentation/FAQ/PPC |documentation on the wiki]]\n"
+#, no-wrap
 msgid ""
 "= Known Issues =\n"
 "== Installation ==\n"
@@ -123,60 +112,57 @@ msgstr ""
 "= 既知の不具合 =\n"
 "== インストール ==\n"
 " * PPC環境では、いくつかの問題と回避策があります。[[https://help.ubuntu.com/community/Lubuntu/Documentation/FAQ/PPC |Wiki のドキュメント]]を参照してください。\n"
+" * PPC向けISOは、CDサイズを超えています。\n"
+" * ガイド付きインストールには、'max' 選択時にバグがあります [[http://launchpad.net/bugs/1163908 | Bug 1163908]]。\n"
+" * デスクトップインストールには、ubiquityのバグの影響をまだ受ける可能性があります [[http://launchpad.net/bugs/1080701 | Bug 1080701]]。\n"
 
 #. type: Plain text
 msgid "== Graphics and Display =="
-msgstr ""
+msgstr "== グラフィックおよびディスプレイ ==\n"
 
 #. type: Bullet: ' * '
 msgid "PPC issued are detailed above."
-msgstr ""
+msgstr "PPC の不具合の詳細については、上記を参照してください。"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "== Lubuntu Applications =="
 msgid "== Applications =="
-msgstr "== Lubuntuアプリケーション =="
+msgstr "== アプリケーション =="
 
 #. type: Bullet: ' * '
 msgid "Blank boxes appear when hardinfo is started, and needed to be closed before accessing to the application (Bug:1029212)"
-msgstr ""
+msgstr "hardinfoを起動するとブランクボックスが表示されます。アプリケーションを利用するには、ボックスを閉じる必要があります (Bug:1029212)"
 
 #. type: Bullet: ' * '
 msgid "Different spacing for the icons on the right corner of lxpanel (Bug:1056547)"
-msgstr ""
+msgstr "lxpanelの右端の各アイコンのスペースが異なっています (Bug:1056547)"
 
 #. type: Bullet: ' * '
 msgid "Software sources takes 30 seconds to load (Bug:1073728)"
-msgstr ""
+msgstr "ソフトウェアソースが、読み込みに30秒かかります (Bug:1051723)"
 
 #. type: Bullet: ' * '
 msgid "Clicking on Ibus icon start the deamon, but doesn't display an icon (Bug:1041933)"
-msgstr ""
+msgstr "IBusアイコンをクリックしてデーモンを起動しても、アイコンが表示されません (Bug:1041933)"
 
 #. type: Bullet: ' * '
 msgid "Some actions on the menu may cause an harmless crash of menu-cache (Bug:1098732)"
-msgstr ""
+msgstr "メニュー上で何らかの操作を行うと、特に実害のないmenu-cache のクラッシュを引き起こす可能性があります (Bug:1098732)"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "== Lubuntu Applications =="
 msgid "== Ubuntu Release notes =="
-msgstr "== Lubuntuアプリケーション =="
+msgstr "== Ubuntuリリースノート =="
 
 #. type: Bullet: ' * '
 msgid "For common issues with Ubuntu, please refer to the [[RaringRingtail/ReleaseNotes/Ubuntu | Ubuntu release notes]]."
-msgstr ""
+msgstr "Ubuntuに共通する不具合については、[[RaringRingtail/ReleaseNotes/Ubuntu | Ubuntuのリリースノート]]を参照してください。"
 
 #. type: Plain text
 msgid "= Support ="
 msgstr "= サポート ="
 
 #. type: Bullet: ' * '
-#, fuzzy
-#| msgid "18 months."
 msgid "9 months."
-msgstr "18か月間"
+msgstr "9か月間"
 
 #. type: Bullet: ' * '
 msgid "[[https://wiki.ubuntu.com/Lubuntu/ContactUs | Contact us]]."
