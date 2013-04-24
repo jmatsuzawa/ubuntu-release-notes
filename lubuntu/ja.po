@@ -37,7 +37,7 @@ msgstr "新バージョンのpcmanfm / libfm (1.1.0) に組み込みの検索ユ
 
 #. type: Bullet: ' * '
 msgid "Artwork improvements, including new wallpapers, community wallpapers, new icons ..."
-msgstr "アートワークの改良しました。新しい壁紙、コミュニティ壁紙、新しいアイコンなど。"
+msgstr "アートワークを改良しました。新しい壁紙、コミュニティ壁紙、新しいアイコンなど。"
 
 #. type: Bullet: ' * '
 msgid "Removing catfish, since pcmanfm has its own search utility"
@@ -138,7 +138,7 @@ msgstr "lxpanelの右端の各アイコンのスペースが異なっていま�
 
 #. type: Bullet: ' * '
 msgid "Software sources takes 30 seconds to load (Bug:1073728)"
-msgstr "ソフトウェアソースが、読み込みに30秒かかります (Bug:1051723)"
+msgstr "ソフトウェアソースが、読み込みに30秒かかります (Bug:1073728)"
 
 #. type: Bullet: ' * '
 msgid "Clicking on Ibus icon start the deamon, but doesn't display an icon (Bug:1041933)"
