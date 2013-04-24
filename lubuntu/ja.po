@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-04-24 22:07+0900\n"
+"POT-Creation-Date: 2013-04-25 08:50+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,28 +56,28 @@ msgid "== Lubuntu Applications =="
 msgstr "== Lubuntuアプリケーション =="
 
 #. type: Bullet: ' * '
-msgid "Based on the lightweight LXDE desktop environment."
-msgstr "軽量なLXDEデスクトップ環境をベースとしています。"
+msgid "Based on the lightweight [[http://lxde.org/ | LXDE desktop environment]]."
+msgstr "軽量な[[http://lxde.org/ | LXDEデスクトップ環境]]をベースとしています。"
 
 #. type: Bullet: ' * '
-msgid "Pcmanfm, a fast and lightweight files manager using gio/gvfs."
-msgstr "Pcmanfm。gio/gvfsを使用する、高速で軽量なファイルマネージャーです。"
+msgid "[[http://wiki.lxde.org/en/PCManFM | Pcmanfm]], a fast and lightweight files manager using gio/gvfs."
+msgstr "[[http://wiki.lxde.org/en/PCManFM | Pcmanfm]]。gio/gvfsを使用する、高速で軽量なファイルマネージャーです。"
 
 #. type: Bullet: ' * '
 msgid "[[http://openbox.org/ | Openbox]], the fast and extensible, default windows-manager of LXDE."
 msgstr "[[http://openbox.org/ | Openbox]]。高速で拡張性の高い、LXDEのデフォルトのウィンドウマネージャーです。"
 
 #. type: Bullet: ' * '
-msgid "Lightdm, using the simple GTK greeter."
-msgstr "Lightdm。シンプルなGTKグリーターを使用しています。"
+msgid "[[https://launchpad.net/lightdm | Lightdm]], using the simple GTK greeter"
+msgstr "[[https://launchpad.net/lightdm | Lightdm]]。シンプルなGTKグリーターを使用しています。"
 
 #. type: Bullet: ' * '
-msgid "Chromium, the open-source version of Google Chrome."
-msgstr "Chromium。Google Chromeのオープンソースバージョンです。"
+msgid "[[http://www.chromium.org/Home | Chromium]], the open-source version of Google Chrome."
+msgstr "[[http://www.chromium.org/Home | Chromium]]。Google Chromeのオープンソースバージョンです。"
 
 #. type: Bullet: ' * '
-msgid "For more detail, please see the [[Lubuntu/Applications | full list of applications]]."
-msgstr "詳細については、[[Lubuntu/Applications | アプリケーションの全リスト]]を参照してください。"
+msgid "For more detail, please see the [[https://help.ubuntu.com/community/Lubuntu/Setup#Applications | full list of applications]]."
+msgstr "詳細については、[[https://help.ubuntu.com/community/Lubuntu/Setup#Applications | アプリケーションの全リスト]]を参照してください。"
 
 #. type: Plain text
 msgid "== System Requirements =="
@@ -105,16 +105,12 @@ msgid ""
 "= Known Issues =\n"
 "== Installation ==\n"
 " * PPC has several issues and workarounds, please refer to the [[https://help.ubuntu.com/community/Lubuntu/Documentation/FAQ/PPC |documentation on the wiki]].\n"
-" * The PPC iso's are over sized.\n"
-" * Guided install has a bug when selecting 'max' [[http://launchpad.net/bugs/1163908 | Bug 1163908]].\n"
-" * Desktop installs may still be affected by a ubiquity bug [[http://launchpad.net/bugs/1080701 | Bug 1080701]].\n"
+" * Guided install has a bug when selecting 'max' (Bug:1163908).\n"
 msgstr ""
 "= 既知の不具合 =\n"
 "== インストール ==\n"
 " * PPC環境では、いくつかの問題と回避策があります。[[https://help.ubuntu.com/community/Lubuntu/Documentation/FAQ/PPC |Wiki のドキュメント]]を参照してください。\n"
-" * PPC向けISOは、CDサイズを超えています。\n"
-" * ガイド付きインストールには、'max' 選択時にバグがあります [[http://launchpad.net/bugs/1163908 | Bug 1163908]]。\n"
-" * デスクトップインストールには、ubiquityのバグの影響をまだ受ける可能性があります [[http://launchpad.net/bugs/1080701 | Bug 1080701]]。\n"
+" * ガイド付きインストールには、'max' 選択時にバグがあります (Bug:1163908)。\n"
 
 #. type: Plain text
 msgid "== Graphics and Display =="
