@@ -1,0 +1,23 @@
+# Ubuntuリリースノート
+
+po4aを利用してpo化することで、原文への更新に追従できるようにしています。
+オリジナルのwikiのrawテキストは、ネットワークを通じて取得しています。
+たとえばLubuntuなら:
+https://wiki.ubuntu.com/RaringRingtail/ReleaseNotes/Lubuntu?action=raw
+
+翻訳ドキュメントやpoの生成、更新はMakefileを利用できます。
+
+
+## Makefile使いかた
+
+- POT (空のpo)の生成
+$ make pot
+
+- PO (ja.po) の更新 (原文が更新されていれば自動でマージ)
+$ make update-po
+
+- 翻訳版rawテキストの生成
+$ make
+
+- 原文rawテキストの取得
+$ make master-doc
