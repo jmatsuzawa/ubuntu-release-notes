@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-04-24 20:10+0900\n"
+"POT-Creation-Date: 2013-04-24 22:07+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,43 +16,42 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-msgid "## page was copied from PrecisePangolin/ReleaseNotes/Lubuntu <<Include(Lubuntu/Header)>>"
-msgstr "## page was copied from PrecisePangolin/ReleaseNotes/Lubuntu <<Include(Lubuntu/Header)>>"
+msgid "<<Include(Lubuntu/Header)>>"
+msgstr ""
 
 #. type: Plain text
 msgid "||<tablestyle=\"float:right; font-size: 0.9em; width:30%; background:#F1F1ED; background-repeat: no-repeat; background-position: 98% 0.5ex; margin: 0 0 1em 1em; padding: 0.5em;\"><<TableOfContents>>||"
 msgstr "||<tablestyle=\"float:right; font-size: 0.9em; width:30%; background:#F1F1ED; background-repeat: no-repeat; background-position: 98% 0.5ex; margin: 0 0 1em 1em; padding: 0.5em;\"><<TableOfContents>>||"
 
 #. type: Plain text
-msgid "= New Features in Lubuntu 12.10 ="
+msgid "= DRAFT ="
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid "= New Features in Lubuntu 12.10 ="
+msgid "= New Features in Lubuntu 13.04 ="
 msgstr "= Lubuntu 12.10の新機能 ="
 
-#. type: Plain text
-msgid "This release of Lubuntu contains:"
-msgstr "Lubuntuの今回のリリースには次のものが含まれます:"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-" * Update of the visual identity of Lubuntu, including :\n"
-"  * A completely new icon theme.\n"
-"  * A new wallpaper and improvements to the current theme.\n"
-"  * A selection of community wallpapers.\n"
-"  * Improving integration of many applications with the new artwork. \n"
-" * A new version of the session manager is available, including more customizations and integration options (not enable by default, but available for testing).\n"
-" * A new version of pcmanfm (file manager), including at lot of bug fixes, external thumbnailer support, multiple screen support.\n"
-" * Notification-daemon have been replaced for xfce4-notifyd on the default installation, to display notifications.\n"
-" * Catfish, a searching utility, have been added to the default installation. \n"
+#. type: Bullet: ' * '
+msgid "New version of pcmanfm / libfm (1.1.0) including a built-in search utility."
 msgstr ""
-" * Lubuntuのビジュアルアイデンティティの更新として、次のものがあります :\n"
-"  * 完全に新しいアイコンテーマ。\n"
-"  * 新しい壁紙ならびに現在のテーマの改善。\n"
-"  * コミュニティ壁紙のセレクション。\n"
-"  * 多くのアプリケーションに新しいアートワークが統合されました。\n"
-" * 新バージョンのセッションマネージャーが利用可能です。より多くのカスタマイズと統合オプションが含まれています (デフォルトでは有効ではありませんが、テスト用に利用可能です)。\n"
-" * 新バージョンのpcmanfm (ファイルマネージャー)。多くのバグフィックス、外部サムネイラーのサポート、マルチスクリーンサポートが含まれています。\n"
-" * 通知を表示するための通知デーモンを、デフォルトでインストールされるxfce4-notifydに置き換えました。\n"
-" * 検索ユーティリティのCatfishが、デフォルトインストールに追加されました。\n"
+
+#. type: Bullet: ' * '
+msgid "Artwork improvements, including new wallpapers, community wallpapers, new icons ..."
+msgstr ""
+
+#. type: Bullet: ' * '
+msgid "Removing catfish, since pcmanfm has its own search utility"
+msgstr ""
+
+#. type: Bullet: ' * '
+msgid "Fix a very old bug causing gnome-mplayer to crash with some CPU (P4)"
+msgstr ""
+
+#. type: Bullet: ' * '
+msgid "Several fixes for the image viewer gpicview."
+msgstr ""
 
 #. type: Plain text
 msgid "== Lubuntu Applications =="
@@ -71,7 +70,9 @@ msgid "[[http://openbox.org/ | Openbox]], the fast and extensible, default windo
 msgstr "[[http://openbox.org/ | Openbox]]。高速で拡張性の高い、LXDEのデフォルトのウィンドウマネージャーです。"
 
 #. type: Bullet: ' * '
-msgid "Lightdm, using the simple GTK greeter"
+#, fuzzy
+#| msgid "Lightdm, using the simple GTK greeter"
+msgid "Lightdm, using the simple GTK greeter."
 msgstr "Lightdm。シンプルなGTKグリーターを使用しています。"
 
 #. type: Bullet: ' * '
@@ -79,36 +80,10 @@ msgid "Chromium, the open-source version of Google Chrome."
 msgstr "Chromium。Google Chromeのオープンソースバージョンです。"
 
 #. type: Bullet: ' * '
-msgid "For more detail, please see the [[Lubuntu/Applications | full list of applications]]"
+#, fuzzy
+#| msgid "For more detail, please see the [[Lubuntu/Applications | full list of applications]]"
+msgid "For more detail, please see the [[Lubuntu/Applications | full list of applications]]."
 msgstr "詳細については、[[Lubuntu/Applications | アプリケーションの全リスト]]を参照してください。"
-
-#. type: Plain text
-msgid "<<Include(QuantalQuetzal/ReleaseNotes/CommonInfrastructure, , from=\"^##StartQuantalReleaseNotesFeatures\", to=\"##EndQuantalReleaseNotesFeatures\")>>"
-msgstr "<<Include(QuantalQuetzal/ReleaseNotes/ja/CommonInfrastructure, , from=\"^##StartQuantalReleaseNotesFeatures\", to=\"##EndQuantalReleaseNotesFeatures\")>>"
-
-#. type: Plain text
-msgid "= Installation ="
-msgstr "= インストール ="
-
-#. type: Plain text
-msgid "== Overview =="
-msgstr "== 概要 =="
-
-#. type: Plain text
-msgid "Preparing your computer for Lubuntu is now simpler, with a wider range of disk setup options. Each of these are detailed at length to provide you with a clear understanding of the actions that will take place with your selection."
-msgstr "Lubuntuのインストールを、よりシンプルにする一方で、ディスク設定の選択肢を拡張しました。それぞれの操作の詳細説明を見直し、選択した操作の結果を、より分かりやすく把握できるようにしています。"
-
-#. type: Plain text
-msgid "You can now reinstall or upgrade an existing copy of Lubuntu with the Desktop CD installer, provided that your computer is connected to the Internet."
-msgstr "Desktop CDから起動されるインストーラーは、インターネットに接続されていれば、既存のLubuntu環境をアップグレードしたり、再インストールすることができます。"
-
-#. type: Plain text
-msgid "== Download =="
-msgstr "== ダウンロード =="
-
-#. type: Plain text
-msgid "To download Lubuntu and see the various options available head over to [[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]]. This section also discusses both the standard installs and those required for computers with low memory (RAM), old chipsets (i586), PowerPC, Mac and low disk-space (netbooks)."
-msgstr "Lubuntuをダウンロードしたり、利用可能なさまざまなオプションを知るには、[[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] を参照してください。このセクションでは、標準的なインストールに加えて、少ないメモリ (RAM)、古いチップセット (i586)、PowerPC、Mac、ディスク容量の少ない (ネットブック) コンピューターでの要件についても説明しています。"
 
 #. type: Plain text
 msgid "== System Requirements =="
@@ -120,7 +95,7 @@ msgstr "128MBのRAMを搭載したPentium IIまたはCeleronマシンが、標�
 
 #. type: Plain text
 #, fuzzy
-msgid "'''12.10 32 bit ISO require your CPU to have Physical Address Extensions, or PAE'''. \"PAE is provided by Intel Pentium Pro and above CPUs, including all later Pentium-series processors (except most 400 MHz-bus versions of the Pentium M).\" - '''If you have a NON-PAE CPU and would like to install Lubuntu 12.10, please see [[http://www.webupd8.org/2012/11/how-to-install-ubuntu-1210-on-non-pae.html | this link]] or you can use [[https://help.ubuntu.com/community/Lubuntu/PreviousReleases#A12.04 | Lubuntu 12.04]] instead'''."
+msgid "13.04 32 bit ISO require your CPU to have Physical Address Extensions, or PAE. \"PAE is provided by Intel Pentium Pro and above CPUs, including all later Pentium-series processors (except most 400 MHz-bus versions of the Pentium M).\" - If you have a NON-PAE CPU you can use 12.04 instead."
 msgstr "12.10の32ビットISOイメージでは、物理アドレス拡張(PAE)に対応したCPUが必要となります。PAEはIntel Pentium Pro以降のすべてのPentiumシリーズのCPUに搭載されています。(大多数のPemtium Mの400MHzバスシリーズを除く)"
 
 #. type: Plain text
@@ -132,70 +107,163 @@ msgid "For Intel based Macs, lubuntu should run on all models."
 msgstr "IntelベースのMacについては、すべてのモデルでLubuntuが動作するはずです。"
 
 #. type: Plain text
-msgid "See [[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] for fuller details as to which download to use."
-msgstr "どのLubuntuをダウンロードするかについての詳細は、[[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] を参照してください。"
-
-#. type: Plain text
-msgid "= Upgrading ="
-msgstr "= アップグレード ="
-
-#. type: Plain text
-msgid "== Upgrading from Lubuntu 12.04 == The update manager GUI will offer you 12.10 Lubuntu (it shows as Ubuntu, but updates Lubuntu); Alternatively, launch LXTerminal and enter {{{ sudo do-release-upgrade -d }}} Please note the importance of upgrading apt and dpkg on a mixed 32 bit & 64 bit architecture (e.g. Skype on a 64bit installation) below."
-msgstr "== Lubuntu 12.04からのアップグレード == アップデートマネージャーのGUIによって、Lubuntu 12.10が提供されます。(Ubuntuと表示されますが、Lubuntuが更新されます)。または、LXTerminalを起動して、次のコマンドを入力してください。 {{{ sudo do-release-upgrade -d }}} 以下にあるとおり、32bitと64bitアーキテクチャ混合の環境 (たとえば、64bit環境上のSkype)では、apt および dpkg のアップグレードが重要であることに注意してください。"
-
-#. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "= Known Issues =\n"
+#| "== Installation ==\n"
+#| " * PPC has several issues and workarounds, please refer to the [[https://help.ubuntu.com/community/Lubuntu/Documentation/FAQ/PPC |documentation on the wiki]]\n"
 msgid ""
 "= Known Issues =\n"
 "== Installation ==\n"
-" * PPC has several issues and workarounds, please refer to the [[https://help.ubuntu.com/community/Lubuntu/Documentation/FAQ/PPC |documentation on the wiki]]\n"
+" * PPC has several issues and workarounds, please refer to the [[https://help.ubuntu.com/community/Lubuntu/Documentation/FAQ/PPC |documentation on the wiki]].\n"
+" * The PPC iso's are over sized.\n"
+" * Guided install has a bug when selecting 'max' [[http://launchpad.net/bugs/1163908 | Bug 1163908]].\n"
+" * Desktop installs may still be affected by a ubiquity bug [[http://launchpad.net/bugs/1080701 | Bug 1080701]].\n"
 msgstr ""
 "= 既知の不具合 =\n"
 "== インストール ==\n"
 " * PPC環境では、いくつかの問題と回避策があります。[[https://help.ubuntu.com/community/Lubuntu/Documentation/FAQ/PPC |Wiki のドキュメント]]を参照してください。\n"
 
 #. type: Plain text
-#, no-wrap
-msgid ""
-"== Graphics and Display ==\n"
-" * On some GTK3 applications, some tooltips have a black background and a black font. (Bug:1065941)\n"
+msgid "== Graphics and Display =="
 msgstr ""
-"== グラフィックおよびディスプレイ ==\n"
-" * 一部のGTK3アプリケーションでは、ツールチップが黒い背景に黒い文字で表示されることがあります。 (Bug:1065941)\n"
+
+#. type: Bullet: ' * '
+msgid "PPC issued are detailed above."
+msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid ""
-"== Applications ==\n"
-" * Execute in terminal is not working in pcmanfm (Bug:975152)\n"
-" * Blank boxes appear when hardinfo is started, and needed to be closed before accessing to the application (Bug:1029212)\n"
-" * Different spacing for the icons on the right corner of lxpanel (Bug:1056547)\n"
-" * Software sources takes 30 seconds to load (Bug:1051723)\n"
-" * Clicking on Ibus icon start the deamon, but doesn't display an icon (Bug:1041933)\n"
-" * gnome-mplayer with mplayer2 is not working on some hardware. Installing mplayer package workaround the problem (Bug:858226, Bug:974125, Bug:987734)\n"
-" * Calling file-roller inside pcmanfm doesn't work (Bug:978789)\n"
+#, fuzzy
+#| msgid "== Lubuntu Applications =="
+msgid "== Applications =="
+msgstr "== Lubuntuアプリケーション =="
+
+#. type: Bullet: ' * '
+msgid "Blank boxes appear when hardinfo is started, and needed to be closed before accessing to the application (Bug:1029212)"
 msgstr ""
-"== アプリケーション ==\n"
-" * 端末での実行が、pcmanfmでは動作しません(Bug:975152)\n"
-" * hardinfoを起動するとブランクボックスが表示されます。アプリケーションを利用するには、ボックスを閉じる必要があります (Bug:1029212)\n"
-" * lxpanelの右端の各アイコンのスペースが異なっています (Bug:1056547)\n"
-" * ソフトウェアソースが、読み込みに30秒かかります (Bug:1051723)\n"
-" * IBusアイコンをクリックしてデーモンを起動しても、アイコンが表示されません (Bug:1041933)\n"
-" * mplayer2を使用するgnome-mplayerは、一部のハードウェアでは動作しません。mplayerパッケージのインストールが、問題の回避策となります (Bug:858226, Bug:974125, Bug:987734)\n"
-" * pcmanfm内でのfile-rollerの起動は動作しません (Bug:978789)\n"
+
+#. type: Bullet: ' * '
+msgid "Different spacing for the icons on the right corner of lxpanel (Bug:1056547)"
+msgstr ""
+
+#. type: Bullet: ' * '
+msgid "Software sources takes 30 seconds to load (Bug:1073728)"
+msgstr ""
+
+#. type: Bullet: ' * '
+msgid "Clicking on Ibus icon start the deamon, but doesn't display an icon (Bug:1041933)"
+msgstr ""
+
+#. type: Bullet: ' * '
+msgid "Some actions on the menu may cause an harmless crash of menu-cache (Bug:1098732)"
+msgstr ""
 
 #. type: Plain text
-msgid "<<Include(QuantalQuetzal/ReleaseNotes/CommonInfrastructure, , from=\"^##StartQuantalReleaseNotesBugs\", to=\"##EndQuantalReleaseNotesBugs\")>>"
-msgstr "<<Include(QuantalQuetzal/ReleaseNotes/ja/CommonInfrastructure, , from=\"^##StartQuantalReleaseNotesBugs\", to=\"##EndQuantalReleaseNotesBugs\")>>"
+#, fuzzy
+#| msgid "== Lubuntu Applications =="
+msgid "== Ubuntu Release notes =="
+msgstr "== Lubuntuアプリケーション =="
+
+#. type: Bullet: ' * '
+msgid "For common issues with Ubuntu, please refer to the [[RaringRingtail/ReleaseNotes/Ubuntu | Ubuntu release notes]]."
+msgstr ""
 
 #. type: Plain text
 msgid "= Support ="
 msgstr "= サポート ="
 
 #. type: Bullet: ' * '
-msgid "18 months."
+#, fuzzy
+#| msgid "18 months."
+msgid "9 months."
 msgstr "18か月間"
 
 #. type: Bullet: ' * '
 msgid "[[https://wiki.ubuntu.com/Lubuntu/ContactUs | Contact us]]."
 msgstr "[[https://wiki.ubuntu.com/Lubuntu/ContactUs | 連絡先]]"
+
+#~ msgid "## page was copied from PrecisePangolin/ReleaseNotes/Lubuntu <<Include(Lubuntu/Header)>>"
+#~ msgstr "## page was copied from PrecisePangolin/ReleaseNotes/Lubuntu <<Include(Lubuntu/Header)>>"
+
+#~ msgid "This release of Lubuntu contains:"
+#~ msgstr "Lubuntuの今回のリリースには次のものが含まれます:"
+
+#~ msgid ""
+#~ " * Update of the visual identity of Lubuntu, including :\n"
+#~ "  * A completely new icon theme.\n"
+#~ "  * A new wallpaper and improvements to the current theme.\n"
+#~ "  * A selection of community wallpapers.\n"
+#~ "  * Improving integration of many applications with the new artwork. \n"
+#~ " * A new version of the session manager is available, including more customizations and integration options (not enable by default, but available for testing).\n"
+#~ " * A new version of pcmanfm (file manager), including at lot of bug fixes, external thumbnailer support, multiple screen support.\n"
+#~ " * Notification-daemon have been replaced for xfce4-notifyd on the default installation, to display notifications.\n"
+#~ " * Catfish, a searching utility, have been added to the default installation. \n"
+#~ msgstr ""
+#~ " * Lubuntuのビジュアルアイデンティティの更新として、次のものがあります :\n"
+#~ "  * 完全に新しいアイコンテーマ。\n"
+#~ "  * 新しい壁紙ならびに現在のテーマの改善。\n"
+#~ "  * コミュニティ壁紙のセレクション。\n"
+#~ "  * 多くのアプリケーションに新しいアートワークが統合されました。\n"
+#~ " * 新バージョンのセッションマネージャーが利用可能です。より多くのカスタマイズと統合オプションが含まれています (デフォルトでは有効ではありませんが、テスト用に利用可能です)。\n"
+#~ " * 新バージョンのpcmanfm (ファイルマネージャー)。多くのバグフィックス、外部サムネイラーのサポート、マルチスクリーンサポートが含まれています。\n"
+#~ " * 通知を表示するための通知デーモンを、デフォルトでインストールされるxfce4-notifydに置き換えました。\n"
+#~ " * 検索ユーティリティのCatfishが、デフォルトインストールに追加されました。\n"
+
+#~ msgid "<<Include(QuantalQuetzal/ReleaseNotes/CommonInfrastructure, , from=\"^##StartQuantalReleaseNotesFeatures\", to=\"##EndQuantalReleaseNotesFeatures\")>>"
+#~ msgstr "<<Include(QuantalQuetzal/ReleaseNotes/ja/CommonInfrastructure, , from=\"^##StartQuantalReleaseNotesFeatures\", to=\"##EndQuantalReleaseNotesFeatures\")>>"
+
+#~ msgid "= Installation ="
+#~ msgstr "= インストール ="
+
+#~ msgid "== Overview =="
+#~ msgstr "== 概要 =="
+
+#~ msgid "Preparing your computer for Lubuntu is now simpler, with a wider range of disk setup options. Each of these are detailed at length to provide you with a clear understanding of the actions that will take place with your selection."
+#~ msgstr "Lubuntuのインストールを、よりシンプルにする一方で、ディスク設定の選択肢を拡張しました。それぞれの操作の詳細説明を見直し、選択した操作の結果を、より分かりやすく把握できるようにしています。"
+
+#~ msgid "You can now reinstall or upgrade an existing copy of Lubuntu with the Desktop CD installer, provided that your computer is connected to the Internet."
+#~ msgstr "Desktop CDから起動されるインストーラーは、インターネットに接続されていれば、既存のLubuntu環境をアップグレードしたり、再インストールすることができます。"
+
+#~ msgid "== Download =="
+#~ msgstr "== ダウンロード =="
+
+#~ msgid "To download Lubuntu and see the various options available head over to [[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]]. This section also discusses both the standard installs and those required for computers with low memory (RAM), old chipsets (i586), PowerPC, Mac and low disk-space (netbooks)."
+#~ msgstr "Lubuntuをダウンロードしたり、利用可能なさまざまなオプションを知るには、[[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] を参照してください。このセクションでは、標準的なインストールに加えて、少ないメモリ (RAM)、古いチップセット (i586)、PowerPC、Mac、ディスク容量の少ない (ネットブック) コンピューターでの要件についても説明しています。"
+
+#~ msgid "See [[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] for fuller details as to which download to use."
+#~ msgstr "どのLubuntuをダウンロードするかについての詳細は、[[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] を参照してください。"
+
+#~ msgid "= Upgrading ="
+#~ msgstr "= アップグレード ="
+
+#~ msgid "== Upgrading from Lubuntu 12.04 == The update manager GUI will offer you 12.10 Lubuntu (it shows as Ubuntu, but updates Lubuntu); Alternatively, launch LXTerminal and enter {{{ sudo do-release-upgrade -d }}} Please note the importance of upgrading apt and dpkg on a mixed 32 bit & 64 bit architecture (e.g. Skype on a 64bit installation) below."
+#~ msgstr "== Lubuntu 12.04からのアップグレード == アップデートマネージャーのGUIによって、Lubuntu 12.10が提供されます。(Ubuntuと表示されますが、Lubuntuが更新されます)。または、LXTerminalを起動して、次のコマンドを入力してください。 {{{ sudo do-release-upgrade -d }}} 以下にあるとおり、32bitと64bitアーキテクチャ混合の環境 (たとえば、64bit環境上のSkype)では、apt および dpkg のアップグレードが重要であることに注意してください。"
+
+#~ msgid ""
+#~ "== Graphics and Display ==\n"
+#~ " * On some GTK3 applications, some tooltips have a black background and a black font. (Bug:1065941)\n"
+#~ msgstr ""
+#~ "== グラフィックおよびディスプレイ ==\n"
+#~ " * 一部のGTK3アプリケーションでは、ツールチップが黒い背景に黒い文字で表示されることがあります。 (Bug:1065941)\n"
+
+#~ msgid ""
+#~ "== Applications ==\n"
+#~ " * Execute in terminal is not working in pcmanfm (Bug:975152)\n"
+#~ " * Blank boxes appear when hardinfo is started, and needed to be closed before accessing to the application (Bug:1029212)\n"
+#~ " * Different spacing for the icons on the right corner of lxpanel (Bug:1056547)\n"
+#~ " * Software sources takes 30 seconds to load (Bug:1051723)\n"
+#~ " * Clicking on Ibus icon start the deamon, but doesn't display an icon (Bug:1041933)\n"
+#~ " * gnome-mplayer with mplayer2 is not working on some hardware. Installing mplayer package workaround the problem (Bug:858226, Bug:974125, Bug:987734)\n"
+#~ " * Calling file-roller inside pcmanfm doesn't work (Bug:978789)\n"
+#~ msgstr ""
+#~ "== アプリケーション ==\n"
+#~ " * 端末での実行が、pcmanfmでは動作しません(Bug:975152)\n"
+#~ " * hardinfoを起動するとブランクボックスが表示されます。アプリケーションを利用するには、ボックスを閉じる必要があります (Bug:1029212)\n"
+#~ " * lxpanelの右端の各アイコンのスペースが異なっています (Bug:1056547)\n"
+#~ " * ソフトウェアソースが、読み込みに30秒かかります (Bug:1051723)\n"
+#~ " * IBusアイコンをクリックしてデーモンを起動しても、アイコンが表示されません (Bug:1041933)\n"
+#~ " * mplayer2を使用するgnome-mplayerは、一部のハードウェアでは動作しません。mplayerパッケージのインストールが、問題の回避策となります (Bug:858226, Bug:974125, Bug:987734)\n"
+#~ " * pcmanfm内でのfile-rollerの起動は動作しません (Bug:978789)\n"
+
+#~ msgid "<<Include(QuantalQuetzal/ReleaseNotes/CommonInfrastructure, , from=\"^##StartQuantalReleaseNotesBugs\", to=\"##EndQuantalReleaseNotesBugs\")>>"
+#~ msgstr "<<Include(QuantalQuetzal/ReleaseNotes/ja/CommonInfrastructure, , from=\"^##StartQuantalReleaseNotesBugs\", to=\"##EndQuantalReleaseNotesBugs\")>>"
